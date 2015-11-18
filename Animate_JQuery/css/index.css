@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.top-nav{
+  font-size: 14px;
+  font-weight: bold;
+  list-style: none;
+}
+.top-nav li{
+  float: left;
+  margin-right: 1px;
+}
+.top-nav li a{
+  line-height: 34px;
+  text-decoration: none;
+  background: rgb(95,51,26);
+  color: #FFF;
+  display: block;
+  width: 80px;
+  text-align: center;
+}
+.top-nav ul{
+  list-style: none;
+  display: none;
+  padding: 0;
+  position:absolute;
+}
+.top-nav li a:hover{
+  background: linear-gradient(to bottom, #90D620 10%, #26691E 90%);
+}
+/*使用渐变色来做按钮样式*/
+.note{
+  color:rgb(95,51,26);
+  display: block;
+  background: linear-gradient(to bottom, #90D620 10%, #26691E 90%);
+}
+.corner{
+  display: block;
+  width: 0;
+  height: 0;
+  border:10px solid transparent;
+  border-bottom-color: rgb(95,51,26);
+  margin-left:30px;
+  margin-top:-10px;
+}/*span 标签做一个三角形 */

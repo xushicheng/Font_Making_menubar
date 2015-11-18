@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.top-nav{
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom:8px solid #dc4e1b;
+  overflow: auto;
+}
+.top-nav li{
+  list-style: none;
+  float: left;
+  margin-right: 1px;
+}
+.top-nav a{
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ddd;
+  color: #666666;
+  display: block;
+  width: 80px;
+  text-align: center;
+}
+.top-nav li a span{
+  display:none;
+}
+.top-nav li a:hover span{
+  display: block;
+  background-color: #dc4e1b;
+  color:#fff;
+}
+.top-nav li a:hover{
+  margin-top:-20px;
+}
+/*因line-height=20px 固定了了整体高度.
+本身打开 a+span 共计40px,向下延伸
+把 a 的上外边距设为负值20px,可看做向上移动20px,line-height=20px正好将其完全隐藏.
+*/

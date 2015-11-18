@@ -1,0 +1,14 @@
+/*$(function(){
+  $(".navmenu").mouseover(function(){
+    $(this).children("ul").show();
+  })
+  $(".navmenu").mouseout(function(){
+    $(this).children("ul").hide();
+  })
+})
+*/
+$(function(){
+  $(".navmenu").hover(function(){
+    $(this).children("ul").toggle();
+  })
+})
