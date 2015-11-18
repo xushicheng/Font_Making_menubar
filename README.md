@@ -2,7 +2,9 @@
 ### 给自己做一个总结和备份,免得以后回忆时候到处找
 - - - - - -
 **static_css_method**最基础的用 css 做二级下拉菜单
+
 **javascript_method**用 javascript 做二级下拉菜单
+
 **JQuery_method**用 JQuery 做二级下拉菜单
 **three_levels_menu**css 做的3级下拉菜单
 **reforming_style_method**变换式菜单栏,可以中英文互换..毫无违和感
