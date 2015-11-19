@@ -16,7 +16,3 @@
 **Animate_JQuery**JQuery 做的特效菜单...代码比 JS做简单很多
 
 **Animate_Javascript**和上面一样,整体逻辑是很好理解的,但是写起来代码量太大,没有JQ方便
-
-**Effects** JQuery 做的特效菜单.妈蛋. JS 代码一多就看不懂了.难哦
-
-**Responsive_JQuery**  JQuery 做响应式菜单.
