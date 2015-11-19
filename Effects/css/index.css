@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.navlist{
+  position: absolute;
+  top: 10px;
+}
+.navlist a{
+  margin-left: 60px;
+  color: #666;
+}
+.expand{
+  height: 0px;
+  background-color: #333d4d;
+  overflow: hidden;
+  position: relative;
+  top: 40px;
+  width: 100%;
+}
+.expdiv{
+  height: 130px;
+  width: 500%;
+}
+.expdiv-list{
+  width: 20%;
+  text-align: center;
+  float: left;
+  line-height: 110px;
+  color:white;
+}
+.expand .close-btn{
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/arrow2.png);
+  position: absolute;
+  left:50%;
+  margin-left: -15px;
+  cursor: pointer;
+  bottom:2px;
+}
